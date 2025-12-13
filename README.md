@@ -10,9 +10,16 @@ You must meet all requirements in the following areas:
 
 ## Tests
 The pytests are designed to measure the goals for HTML and CSS. You can know for a fact what grade you will earn for HTML and CSS. 
-* `test_html.py` [#/3] - will test HTML proficiency requirements. Passing all these tests guarantees you a B in HTML
+
+### For Meeting (B) in HTML and CSS:
+
+* `test_html.py` [#/1] - will test HTML proficiency requirements. 
+* `test_css.py` [#/1] - will test CSS proficiency requirements. 
+* `test_validation.py` [#/1] - will check for valid HTML and CSS
+
+### For Meeting and a High Level (A) in HTML and CSS - you must pass both of these
+
 * `test_html_exceeds.py` [#/1] - Passing all these tests will guarantee you an A in HTML
-* `test_css.py` [#/3] - will test CSS proficiency requirements. Passing all these tests guarantees you a B in CSS
 * `test_html_exceeds.py` [#/1] - Passing all these tests will guarantee you an A in CSS
 
 ## Instructions

@@ -31,7 +31,7 @@ Students will develop a multi-page, mobile-first website with structured HTML an
 * Any color or background color set on an element passes the AIM color contrast checker
     - Must pass at a AAA rating for any non-heading
     - May pass at a AA rating for headings
-* At least two of your elements use the `flex` and/or `grid` property and related  properties to contribute to the layout.
+* At least two of your elements use the `flex` and/or `grid` property and related properties to contribute to the layout.
 * Any figures are styled using the `border`, `padding`, and `background-color` properties.
 * There are no `CSS` validation errors.
 

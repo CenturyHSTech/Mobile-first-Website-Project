@@ -166,6 +166,7 @@ cython_debug/
 .vscode/
 
 # Teacher testing test files
-project/wiliwonka.html
-project/wili_images/*
+project/winiwonka.html
+project/winiwonka_images/*
+project/winiwonka_* 
 !project/
