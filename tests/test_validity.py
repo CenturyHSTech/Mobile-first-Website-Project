@@ -2,6 +2,7 @@
 Test for Valid HTML and CSS
 """
 import pytest
+import warnings
 
 from webcode_tk import html_tools as html
 from webcode_tk import validator_tools as validator
@@ -26,7 +27,13 @@ def test_passes_html_validation(html_files):
     for file in html_files:
         results = validator.get_markup_validity(file)
         for result in results:
-            errors.append(result.get("message"))
+            message = result.get("message")
+            if "Problems connecting with the validator" not in message:
+                errors.append(message)
+            else:
+                warning = f"Could not connect to validator for {file}."
+                warning += " Please validate manually."
+                warnings.warn(warning, UserWarning)
     assert not errors
 
 

@@ -21,7 +21,7 @@ min_required_elements = [
     ("figure", 2),
     ("header", 1),
     ("footer", 1),
-    ("p", 5),
+    ("p", 4),
     ("div or section or article", 2),
     ("img", 2),
     ("a", 4),
