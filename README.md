@@ -1,5 +1,5 @@
-# Image-Gallery-Project
-Students will design an image gallery project that showcases a minimum of 9 image thumbnails related to a theme, and these thumbnails link to a full-sized image.
+# Mobile-first Website Project
+Students will develop a multi-page, mobile-first website with structured HTML and formatted content using CSS that is designed first for a hand-held width, and then adjusted through `@media` breakpoints to look more appropriate for wider widths.
 
 ## Project Requirements
 Are listed in the README file in the `project` folder.
