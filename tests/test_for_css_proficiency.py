@@ -1,5 +1,5 @@
 """
-Test CSS Requirements.
+Test CSS Proficiency.
 """
 from bs4 import BeautifulSoup
 import pytest

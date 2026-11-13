@@ -1,5 +1,5 @@
 """
-Test for HTML requirements
+Test for HTML proficiency
 """
 import pytest
 import file_clerk.clerk as clerk
@@ -88,8 +88,15 @@ def test_number_of_image_files():
     image_files += clerk.get_all_files_of_type(project_dir, "jpg")
     image_files += clerk.get_all_files_of_type(project_dir, "png")
     image_files += clerk.get_all_files_of_type(project_dir, "gif")
-    image_files += clerk.get_all_files_of_type(project_dir, "svg")
     image_files += clerk.get_all_files_of_type(project_dir, "webp")
+    image_files += clerk.get_all_files_of_type(project_dir, "avif")
+    image_files += clerk.get_all_files_of_type(project_dir, "apng")
+    image_files += clerk.get_all_files_of_type(project_dir, "jpeg")
+    image_files += clerk.get_all_files_of_type(project_dir, "jfif")
+    image_files += clerk.get_all_files_of_type(project_dir, "pjpeg")
+    image_files += clerk.get_all_files_of_type(project_dir, "pjp")
+    image_files += clerk.get_all_files_of_type(project_dir, "jxl")
+    image_files += clerk.get_all_files_of_type(project_dir, "svg")
     expected = num_html_files * 2
     num_image_files = len(image_files)
     assert num_image_files >= expected

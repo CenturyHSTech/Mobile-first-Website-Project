@@ -1,5 +1,5 @@
 """
-Test for HTML requirements
+Test for HTML Proficiency
 """
 from file_clerk import clerk
 import pytest
