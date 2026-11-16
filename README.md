@@ -4,7 +4,7 @@
 Students will develop a multi-page, mobile-first website with structured HTML and formatted content using CSS that is designed first for a hand-held width, and then adjusted through `@media` breakpoints to look more appropriate for wider widths.
 
 ---------
-[top](#mobile-first-website-project) | [project] [learning target](#learning-target) | [instructions](#instructions) | [project requirements](#project-requirements) | [grading](#grading)
+[top](#mobile-first-website-project) | [project setup](#project-setup) | [Working on Your Project](#working-on-your-project) | [Tracking Project History](#tracking-your-project-history)
 
 ## Instructions:
 Once you have accepted the assignment and have a copy of your repo...
